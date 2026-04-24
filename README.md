@@ -39,7 +39,7 @@ No frameworks. No build system. No dependency drama.
 
 ## 📁 Project Structure
 
-```txt
+```bash
 waffles-demo/
 ├── design/
 │   ├── index.css
@@ -64,13 +64,13 @@ waffles-demo/
 
 ## 🚀 Live Demo
 
-```txt
+```bash
 https://waffles-demo-rosy.vercel.app/
 ```
 
 Projects page:
 
-```txt
+```bash
 https://waffles-demo-rosy.vercel.app/projects
 ```
 
@@ -144,7 +144,7 @@ See the [LICENSE](./LICENSE) file for details.
 
 Built by **Vessel**.
 
-```txt
+```bash
 GitHub: https://github.com/vessel-69
 ```
 
@@ -161,5 +161,4 @@ No build step.
 
 Just HTML, CSS, JavaScript, and a clean static deploy.
 
-````
 
