@@ -10,6 +10,92 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/design/projects.css" />
+
+    <!-- Primary SEO -->
+    <meta name="title" content="Projects | Vessel Portfolio" />
+    <meta
+      name="description"
+      content="Explore Vessel's projects, including CyberTools API, Slushie Lab, Brainrot Museum, Waffle Demo, Chess Engine, and DNS networking labs."
+    />
+    <meta
+      name="keywords"
+      content="Vessel projects, CyberTools API, Slushie Lab, Brainrot Museum, Waffle Demo, Chess Engine, DNS lab, cybersecurity projects, developer portfolio"
+    />
+    <meta name="author" content="Vessel" />
+    <meta name="creator" content="Vessel" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="theme-color" content="#080b0f" />
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Canonical -->
+    <link
+      rel="canonical"
+      href="https://waffles-demo-rosy.vercel.app/projects"
+    />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/public/waffle-demo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/public/waffle-demo.png" />
+
+    <!-- Open Graph / Facebook / Discord / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://waffles-demo-rosy.vercel.app/projects"
+    />
+    <meta property="og:title" content="Projects | Vessel Portfolio" />
+    <meta
+      property="og:description"
+      content="A clean project showcase featuring web apps, security tools, Python experiments, Linux learning, and weird side projects."
+    />
+    <meta
+      property="og:image"
+      content="https://waffles-demo-rosy.vercel.app/public/waffle-demo.png"
+    />
+    <meta
+      property="og:image:alt"
+      content="Preview image of Vessel project showcase"
+    />
+    <meta property="og:site_name" content="Vessel Portfolio" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:url"
+      content="https://waffles-demo-rosy.vercel.app/projects"
+    />
+    <meta name="twitter:title" content="Projects | Vessel Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore Vessel's web, security, Python, and Linux projects in a clean dark portfolio interface."
+    />
+    <meta
+      name="twitter:image"
+      content="https://waffles-demo-rosy.vercel.app/public/waffle-demo.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Preview image of Vessel project showcase"
+    />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Vessel Projects",
+        "url": "https://waffles-demo-rosy.vercel.app/projects",
+        "description": "A project showcase featuring CyberTools API, Slushie Lab, Brainrot Museum, Waffle Demo, Chess Engine, and DNS networking labs.",
+        "creator": {
+          "@type": "Person",
+          "name": "Vessel",
+          "url": "https://waffles-demo-rosy.vercel.app/"
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="cursor"></div>
@@ -382,10 +468,12 @@
       }
 
       function handleNavClick(el) {
-            document.querySelectorAll('.nav-links a').forEach(a => a.style.color = '');
-            el.style.color = 'var(--accent)';
-            setTimeout(() => el.style.color = '', 2000);
-        }
+        document
+          .querySelectorAll(".nav-links a")
+          .forEach((a) => (a.style.color = ""));
+        el.style.color = "var(--accent)";
+        setTimeout(() => (el.style.color = ""), 2000);
+      }
 
       function applyFilters() {
         const cards = document.querySelectorAll(".project-card");
