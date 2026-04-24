@@ -107,51 +107,6 @@ http://localhost:3000/page/projects.html
 
 ---
 
-
-### Vercel settings
-
-Use these settings:
-
-```txt
-Framework Preset: Other
-Build Command: empty
-Output Directory: .
-Root Directory: .
-```
-
-Then redeploy.
-
----
-
-## 🧩 Pages
-
-### Home
-
-The homepage introduces Vessel, skills, background, and contact links.
-
-```txt
-/
-```
-
-### Projects
-
-The projects page contains a filterable project showcase.
-
-```txt
-/projects
-```
-
-Current projects include:
-
-* CyberTools API
-* Slushie Lab
-* Brainrot Museum
-* Waffle Demo
-* Chess Engine
-* DNS & Networking Lab
-
----
-
 ## 🎨 Customization
 
 To change the main content, edit:
